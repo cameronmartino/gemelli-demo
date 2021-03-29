@@ -4,6 +4,7 @@ set -e
 
 pip install git+https://github.com/biocore/DEICODE
 pip install git+https://github.com/biocore/gemelli
+pip install qurro
 pip3 install git+https://github.com/regebro/tzlocal
 qiime dev refresh-cache
 jupyter nbconvert --ClearOutputPreprocessor.enabled=True --inplace notebooks/*.ipynb
